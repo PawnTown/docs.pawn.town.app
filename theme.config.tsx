@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <img src="/img/logo.png" className="h-8" />,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/PawnTown/docs.pawn.town.app',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/sc4fPh6v',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/PawnTown/docs.pawn.town.app/blob/main',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '© 2023 PawnTown',
   },
 }
 
