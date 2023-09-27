@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <img src="/img/logo.png" className="h-8" />,
+  logo: <img src="/img/logo.png" className="h-8 dark:invert" />,
   project: {
     link: 'https://github.com/PawnTown/docs.pawn.town.app',
   },
