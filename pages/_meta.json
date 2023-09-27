@@ -3,14 +3,16 @@
   "streaming-guide": "Streamer Guide",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "legal-notice": {
+    "title": "Legal Notice",
+    "type": "page",
+    "href": "https://khadimfall.com/legal-notice",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://khad.im",
     "newWindow": true
   }
 }
