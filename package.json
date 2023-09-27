@@ -1,7 +1,7 @@
 {
   "name": "docs.pawn.town.app",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "PawnTown Documentation",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/PawnTown/docs.pawn.town.app.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Khadim Fall <info@khadimfall.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PawnTown/docs.pawn.town.app/issues"
