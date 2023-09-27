@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/PawnTown/docs.pawn.town.app',
   },
   chat: {
-    link: 'https://discord.gg/sc4fPh6v',
+    link: 'https://discord.gg/SW7dgF3nH3',
   },
   docsRepositoryBase: 'https://github.com/PawnTown/docs.pawn.town.app/blob/main',
   footer: {
