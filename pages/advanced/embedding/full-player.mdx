@@ -1,0 +1,38 @@
+# Integrating the Full Player from PawnTown
+
+Embedding PawnTown's full player into your platform allows you to showcase a live chess game, directly enhancing the user's experience. This guide will walk you through the embedding process, and also discuss customization options to match your desired appearance.
+
+## Embed Link
+
+To integrate the full player, utilize the following embed link, where `[streamId]` should be replaced with the unique ID of your live stream:
+
+```html
+<iframe src="https://pawn.town/s/[streamId]/embed" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+```
+
+## Customizing Appearance via Query Parameters
+
+PawnTown provides a query API, allowing you to customize the appearance of the embedded chess board and its associated features. Here's a breakdown:
+
+### 1. Board Colors:
+
+- **Light Square Color (`l`)**: Define the color of the light squares.
+- **Dark Square Color (`d`)**: Define the color of the dark squares.
+
+Example: `https://pawn.town/s/[streamId]/embed?l=#e0e0e0&d=#202020`
+
+### 2. Show Evaluation (`e`):
+
+Toggle the display of the board's evaluation. Use `true` to show, and `false` to hide.
+
+Example: `https://pawn.town/s/[streamId]/embed?e=true`
+
+### 3. Control Bar (`c`):
+
+Toggle the visibility of the control bar. Use `true` to show, and `false` to hide.
+
+Example: `https://pawn.town/s/[streamId]/embed?c=false`
+
+---
+
+Hope this assists in smoothly integrating and customizing the PawnTown full player into your desired platform. Happy streaming!
