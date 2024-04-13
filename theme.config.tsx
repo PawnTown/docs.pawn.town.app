@@ -1,5 +1,5 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
@@ -21,6 +21,25 @@ const config: DocsThemeConfig = {
         titleTemplate: '%s'
       }
     }
+  },
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      'https://docs.pawn.town' +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+ 
+    return (
+      <>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontMatter.title || 'PawnTown Docs'} />
+        <meta property="og:img" content={frontMatter.image || ''} />
+        <meta
+          property="og:description"
+          content={frontMatter.description || 'Official PawnTown Platform Documentation'}
+        />
+      </>
+    )
   }
 }
 
