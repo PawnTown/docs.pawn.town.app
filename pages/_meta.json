@@ -1,7 +1,8 @@
 {
-  "index": "Introduction",
-  "streaming-guide": "Streamer Guide",
-  "advanced": "Advanced",
+  "index": "👋🏽 Introduction",
+  "quick-start": "🚀 Quick Start",
+  "features": "✨ Features",
+  "advanced": "⚙️ Advanced",
   "legal-notice": {
     "title": "Legal Notice",
     "type": "page",
