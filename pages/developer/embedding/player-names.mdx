@@ -1,0 +1,38 @@
+---
+title: Embedding Player Names
+description: Learn how to embed and customize player names from PawnTown on your website.
+---
+
+# Integrating Player Names from PawnTown
+
+Present your viewers with the names of the competitors in a sleek and customized manner using PawnTown's player name embedding feature. This guide will take you through the steps to embed player names and customize them to fit your platform's aesthetic.
+
+## Embed HTML
+
+To showcase the player names on your platform, utilize the following embed link. Be sure to replace `[streamId]` with the specific ID of your live stream:
+
+```html
+<iframe
+  src="https://pawn.town/s/[streamId]/embed/names"
+  width="100%"
+  height="60"
+  frameborder="0"
+  scrolling="no"
+></iframe>
+```
+
+## Query Parameters
+
+| Parameter               | Description                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `fc` (Foreground Color) | Choose the color for the player names text. Can be a color value like `green` or hex `%23000000` (=`#000000`).            |
+| `bg` (Background Color) | Set the background color for the player names section. Can be a color value like `green` or hex `%23000000` (=`#000000`). |
+| `f` (Font Family)       | Determine the font family for the player names.                                                                           |
+| `s` (Font Size)         | Adjust the font size for the player names text.                                                                           |
+
+**Example of Using Parameters:**
+To customize the player names display with black text on a white background, using the Arial font at 16px size, your URL would look like this:
+
+```url copy
+https://pawn.town/s/[streamId]/embed/names?fc=%23000000&bg=%23ffffff&f=Arial&s=16px
+```
