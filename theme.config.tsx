@@ -4,12 +4,12 @@ import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
   logo: () => {
-    const { theme } = useTheme();
+    const { resolvedTheme } = useTheme();
     const [darkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
-      setIsDarkMode(theme === "dark");
-    }, [theme]);
+      setIsDarkMode(resolvedTheme === "dark");
+    }, [resolvedTheme]);
 
     return (
       <img
