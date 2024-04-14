@@ -1,23 +1,38 @@
-# Nextra Docs Template 
+# PawnTown Documentation
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## Introduction
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+PawnTown is a chess livestreaming platform allowing users to share otb
+chess games with their friends and followers.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+This repository contains the source code for the PawnTown documentation.
 
-## Quick Start
+## Installation
 
-Click the button to clone this repository and deploy it on Vercel:
+To install the documentation, clone the repository and install the
+dependencies:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+```bash
+git clone https://github.com/PawnTown/docs.pawn.town.app
+cd docs.pawn.town.app
+pnpm install
+```
 
-## Local Development
+## Development
 
-First, run `pnpm i` to install the dependencies.
+To start the development server, run:
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+```bash
+pnpm dev
+```
+
+The documentation will be available at `http://localhost:3000`.
+
+## Deployment
+
+We are using GitHub Actions to deploy the documentation. To deploy the
+documentation, push your changes to the `main` branch.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE)
