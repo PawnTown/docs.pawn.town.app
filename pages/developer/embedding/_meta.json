@@ -2,5 +2,6 @@
   "full-player": "🎬️ Embed Full Player",
   "clock": "⏱️ Embed Clock",
   "moves": "📃 Embed Move History",
-  "player-names": "👥 Embed Player Names"
+  "player-names": "👥 Embed Player Names",
+  "active-round": "🎯 Embed Active Round"
 }

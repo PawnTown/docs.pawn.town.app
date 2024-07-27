@@ -1,0 +1,38 @@
+---
+title: 🎯 Embed Active Round
+description: Learn how to embed and customize the active round from PawnTown on your website.
+---
+
+# 🎯 Embed Active Round
+
+Learn how to embed and customize the active round from PawnTown on your website. Enhance your visitors' experience by displaying real-time updates of the ongoing round 🏆. This guide will walk you through the process of embedding the active round and provide tips on how to tailor its appearance to match your site's aesthetic 🎨. Let's dive in!
+
+## HTML
+
+To showcase the move history on your platform, use the following embed link. Remember to replace `[streamId]` with your specific live stream ID:
+
+```html
+<iframe
+  src="https://pawn.town/s/[streamId]/embed/round"
+  width="100%"
+  height="400"
+  frameborder="0"
+  scrolling="no"
+></iframe>
+```
+
+## Query Parameters
+
+| Parameter               | Description                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `fc` (Foreground Color) | Choose the color for the player names text. Can be a color value like `green` or hex `%23000000` (=`#000000`).            |
+| `bg` (Background Color) | Set the background color for the player names section. Can be a color value like `green` or hex `%23000000` (=`#000000`). |
+| `f` (Font Family)       | Determine the font family for the player names.                                                                           |
+| `s` (Font Size)         | Adjust the font size for the player names text.                                                                           |
+
+**Example of Using Parameters:**
+To customize the active round, displaying black text on a white background, using the Arial font at 16px size, your URL would look like this:
+
+```url copy
+https://pawn.town/s/[streamId]/embed/names?fc=%23000000&bg=%23ffffff&f=Arial&s=16px
+```
